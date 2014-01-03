@@ -9,7 +9,11 @@
 			<a title="RSS订阅源" href="<?php bloginfo('url'); ?>/feed">订</a> : :
 			<a title="所有文章" href="<?php bloginfo('url'); ?>/allposts">文</a> : :
 			<a title="关于我" href="<?php bloginfo('url'); ?>/about">我</a>
-			<?php if (is_single() or is_page('allposts'))
+			<?php if (is_single() or
+				is_page('allposts') or
+				is_404() or
+				is_search()
+			)
 			{
 				?>
 				: :<a title="回到主页" href="<?php bloginfo('url'); ?>">主页</a>
