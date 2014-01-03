@@ -1,6 +1,6 @@
 <?php
 /**
- *  生成单篇文章的发表日期以及标签。
+ *  Generate time and tag header for single post.
  */
 function post_info()
 {
