@@ -15,12 +15,6 @@ Template Name: allposts
 
 			<div class="entry">
 
-				<script type="text/javascript">
-					function Gsitesearch(curobj) {
-						curobj.q.value = "site:" + $mnmlist['domainroot'] + " " + curobj.qfront.value
-					}
-				</script>
-
 				<form action="<?php bloginfo('url'); ?>/" method="get">
 
 					<p>

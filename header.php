@@ -1,9 +1,5 @@
 <?php
-// RSS订阅源
-$mnmlist['rss_feed'] = get_bloginfo('url') . '/feeds/';
-// 域名
-$mnmlist['domainroot'] = '7juta0.info';
-// 加载文章日期和标签输出函数
+// Load function post_info()
 require 'post_info.php';
 ?>
 <!DOCTYPE HTML>
