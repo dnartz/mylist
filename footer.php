@@ -13,9 +13,9 @@
 			{
 				?>
 				: :<a title="回到主页" href="<?php bloginfo('url'); ?>">主页</a>
-				<script>MNMLIST.bottom_menu_width = 268;</script>
+				<script>MYLIST.bottom_menu_width = 268;</script>
 			<?php }else{ ?>
-				<script>MNMLIST.bottom_menu_width = 220;</script>
+				<script>MYLIST.bottom_menu_width = 220;</script>
 			<?php } ?>        </div>
 	</div>
 </div>
@@ -23,9 +23,9 @@
 
 <?php wp_footer(); ?>
 
-<script src="<?php bloginfo('url'); ?>/wp-content/themes/mnmlist3/js/jquery-2
+<script src="<?php bloginfo('url'); ?>/wp-content/themes/mylist/js/jquery-2
 .0.3.min
 .js"></script>
 <script src="<?php bloginfo('url');
-?>/wp-content/themes/mnmlist3/js/mnmlist.js"></script></body>
+?>/wp-content/themes/mylist/js/mylist.js"></script></body>
 </html>

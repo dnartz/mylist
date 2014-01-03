@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage mnmlist
+ * @subpackage mylist
  */
 /*
 Template Name: allposts

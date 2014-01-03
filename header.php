@@ -33,7 +33,7 @@ require 'post_info.php';
 	      href="<?php bloginfo('rss2_url'); ?>"/>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
 
-	<script>MNMLIST = {};</script>
+	<script>MYLIST = {};</script>
 
 	<?php wp_head(); ?>
 </head>
