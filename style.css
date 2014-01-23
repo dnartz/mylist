@@ -150,6 +150,10 @@ li {
     width: 38em;
 }
 
+.post{
+    margin-bottom: 100px;
+}
+
 .post-date {
     color: #C0C0C0;
 }
